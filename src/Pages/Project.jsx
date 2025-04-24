@@ -6,61 +6,61 @@ const projects = [
     title: "University Web site",
     description: " Website using HTML, CSS, and Media Queries. This project shows modern web design elements, including responsive navigation, engaging layouts, and accessibility across devices.",
     link: "https://ajai3237.github.io/Luminar-project/",
-    image: "/Screenshot 2025-04-21 205339.png"
+    image: "/Screenshot2025-04-21205339.png"
   },
   {
     title: "Real Estate Web site",
     description: "My First Bootstrap Project! 🏡✨Here’s my latest creation: a Real Estate Website built using Bootstrap",
 
     link: "https://ajai3237.github.io/Real-estate-/",
-    image: "/Screenshot 2025-04-22 095529.png"
+    image: "/Screenshot2025-04-22095529.png"
   },
   {
     title: "Travel Web site",
     description: "A travel website using React, Tailwind CSS, and Firebase. This project showcases modern web design elements, including responsive navigation, engaging layouts, and accessibility across devices.",
 
     link: "https://ajai3237.github.io/Travel-site/",
-    image: "/Screenshot 2025-04-22 100005.png"
+    image: "/Screenshot2025-04-22100005.png"
   },
   {
     title: "Photo Gallery",
     description: "Photo Gallery project using creative hover effects to enhance the user experience. This project allowed me to deepen my understanding of:CSS transitions and hover effectsResponsive design techniquesEffective layout planning",
 
     link: "https://ajai3237.github.io/photo_gallery/",
-    image: "/Screenshot 2025-04-22 100211.png"
+    image: "/Screenshot2025-04-22100211.png"
   },
   {
     title: "CSS animation",
     description: ", I delved into CSS animations, creative web design, and the importance of delivering an engaging user experience. It was an incredible learning journey that pushed me to explore new concepts and refine my skills.",
     link: "https://ajai3237.github.io/Animation_site/",
-    image: "/Screenshot 2025-04-22 100812.png"
+    image: "/Screenshot2025-04-22100812.png"
   },
   {
     title: "calculator",
     description: "A simple calculator using HTML, CSS, and JavaScript. This project showcases modern web design elements, including responsive navigation, engaging layouts, and accessibility across devices.",
 
     link: " https://lnkd.in/grwVizux",
-    image: "/Screenshot 2025-04-22 103602.png"
+    image: "/Screenshot2025-04-22103602.png"
   },
   {
     title: "Random Quote Generator ",
     description: "A React Project I’m excited to share my latest React.js project – a Random Quote Generator! 🎉 This interactive web page displays motivational quotes along with their respective authors. With each click of the  button, a new quote is fetched dynamically, and display there images. ",
     link: "https://lnkd.in/gR2ncaYZ",
-    image: "/Screenshot 2025-04-22 102943.png"
+    image: "/Screenshot2025-04-22102943.png"
   },
   {
     title: " Parallax Project",
     description: "A Parallax Project using HTML, CSS, and JavaScript. This project showcases modern web design elements, including responsive navigation, engaging layouts, and accessibility across devices.",
 
     link: "https://lnkd.in/g8cib5YF",
-    image: "/Screenshot 2025-04-22 103931.png"
+    image: "/Screenshot2025-04-22103931.png"
   },
   {
     title: "Tip Calculator",
     description: "A Tip Calculator project using HTML, CSS, and JavaScript. This project showcases modern web design elements, including responsive navigation, engaging layouts, and accessibility across devices.",
 
     link: " https://lnkd.in/gUftfwB9",
-    image: "/Screenshot 2025-04-23 095043.png"
+    image: "/Screenshot2025-04-23095043.png"
   }
 ];
 
