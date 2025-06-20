@@ -3,38 +3,19 @@ import React from 'react'
 function About() {
   return (
     <section id="about" className="bg-gradient-to-br from-balck to-gray-900 text-black-800 py-50 px-6">
-    <div className="max-w-5xl mx-auto text-center">
-      
-      <h2 className="text-4xl font-bold text-blue-700 mb-8">About Me</h2>
+      <div className="max-w-5xl mx-auto text-center">
+        <div className=' py-2 px-4 sm:px-6 lg:px-8 text-center'>
+          <h1 className=' mt-9 sm:text-6xl text-4xl font-bold  mb-10 text-black ' style={{ fontWeight: '900' }}>ABOUT <span className='text-blue-700'>ME</span> </h1>
+          <p style={{ fontSize: '20px' }} class="text-sm sm:text-base text-gray-200 max-w-7xl mx-auto text-justify mt-15" >I’m a passionate Frontend Web Developer with a strong foundation in HTML, CSS, Bootstrap, and JavaScript. I’ve also expanded my skills into React and Node.js, allowing me to build dynamic, responsive, and user-friendly web applications. Through hands-on projects, I’ve gained practical experience in creating interactive UIs, implementing animations, and working on full-stack features. I enjoy bringing ideas to life in the browser and continuously strive to learn new technologies to improve both the functionality and design of the websites I create. I’ve worked on several projects that reflect my ability to combine creativity with coding logic. Each project has helped me grow as a developer and sharpen my problem-solving skills.</p>
+          <a href="/AjaiKrishna_Resume.pdf" download className="inline-block px-6 py-2 text-white bg-gray-800 hover:bg-gray-700 rounded-md font-medium mt-19">
+            Download CV <i class="fa-solid fa-download ms-2"></i>
+          </a>
 
-   
-      <p className="text-gray-700 text-lg leading-relaxed mb-10">
-        Hello! I’m <span className="font-semibold text-blue-600">Ajai</span>, a passionate and creative full-stack web developer with a strong love for building modern, responsive, and user-friendly web applications.
-        I enjoy turning complex problems into elegant solutions and continuously pushing my limits to learn and grow in the world of web development.
-      </p>
+        </div>
 
-  
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
-        {[
-          "HTML & CSS 🧱",
-          "JavaScript ✨",
-          "React ⚛️",
-          "Tailwind CSS 🌬️",
-          "Node.js 🌿",
-          "MongoDB 🍃",
-          "Git & GitHub 🐙",
-          "REST APIs 🔗",
-        ].map((skill, index) => (
-          <div
-            key={index}
-            className="bg-blue-100 text-blue-800 py-3 px-6 rounded-full text-center font-medium shadow-sm hover:bg-blue-200 transition"
-          >
-            {skill}
-          </div>
-        ))}
+
       </div>
-    </div>
-  </section>
+    </section>
   )
 }
 

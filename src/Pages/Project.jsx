@@ -68,7 +68,7 @@ const Project = () => {
   return (
     <section id="projects" className=" bg-gradient-to-br from-balck to-gray-900 text-black-800 min-h-screen py-40 px-6">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-12 text-blue-900">My Projects</h2>
+        <h2 className="text-4xl font-bold mb-12 text-blue-900">MY PROJECTS</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 auto-rows-fr">
 
           {projects.map((project, index) => (

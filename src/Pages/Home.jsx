@@ -134,7 +134,7 @@ function Home() {
             <Link
               to="/contact"
               
-              className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-full transition shadow-md"
+              className="border border-gray-600 text-white hover:bg-blue-600 hover:text-white px-6 py-3 rounded-full transition shadow-md"
             >
               Contact Me
             </Link>
@@ -142,113 +142,7 @@ function Home() {
         </div>
       </section>
 
-      <section id="projects" className=" bg-gradient-to-br from-balck to-gray-900 text-black-800 min-h-screen py-40 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 style={{}} className="text-4xl font-bold mb-12 text-blue-900 ">My Projects</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 auto-rows-fr">
-
-            {projects.map((project, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false, amount: 0.3 }}
-
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
-                <div className="p-[2px] rounded-xl hover:shadow-xl transition-shadow duration-500 h-full">
-
-                  <motion.div
-                    whileHover={{
-                      scale: 1.03,
-                      rotate: 1,
-                      boxShadow: "0px 10px 20px rgba(0,0,0,0.1)"
-                    }}
-                    transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                    className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl h-full flex flex-col"
-                  >
-
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-48 object-cover rounded-md mb-4"
-                    />
-                    <h3 className="text-xl font-bold text-blue-700 mb-2">{project.title}</h3>
-                    <p className="text-gray-600 mb-4">{project.description}</p>
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-500 hover:underline font-medium"
-                    >
-                      View Project →
-                    </a>
-                  </motion.div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="skills" className="bg-gradient-to-br from-balck to-gray-900  text-black-800 py-40 px-6">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-blue-700 mb-8">My Skills</h2>
-          <p className="text-gray-700 mb-12 max-w-2xl mx-auto">
-            Here’s a quick look at my technical skills and how comfortable I am with each.
-          </p>
-
-          <div className="w-full h-96">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart
-                data={skillsData}
-                layout="vertical"
-                margin={{ top: 20, right: 30, left: 50, bottom: 5 }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis type="number" domain={[0, 100]} />
-                <YAxis dataKey="name" type="category" width={100} />
-                <Tooltip />
-                <Bar dataKey="level" fill="#2563eb" radius={[0, 10, 10, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" className="bg-gradient-to-br from-balck to-gray-900 text-black-800 py-50 px-6">
-        <div className="max-w-5xl mx-auto text-center">
-
-          <h2 className="text-4xl font-bold text-blue-700 mb-8">About Me</h2>
-
-
-          <p className="text-white text-lg leading-relaxed mb-10 ">
-            Hello! I’m <span className="font-semibold text-blue-600">Ajai</span>, a passionate and creative full-stack web developer with a strong love for building modern, responsive, and user-friendly web applications.
-            I enjoy turning complex problems into elegant solutions and continuously pushing my limits to learn and grow in the world of web development.
-          </p>
-
-
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
-            {[
-              "HTML & CSS",
-              "JavaScript",
-              "React",
-              "Tailwind CSS",
-              "Node.js",
-              "MongoDB",
-              "Git & GitHub",
-              "REST APIs",
-            ].map((skill, index) => (
-              <div
-                key={index}
-                className="bg-blue-100 text-blue-800 py-3 px-6 rounded-full text-center font-medium shadow-sm hover:bg-blue-200 transition"
-              >
-                {skill}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
     </>
   );
