@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-gradient-to-br from-balck to-gray-900 text-black-800 px-6 flex items-center justify-center"
+      className="min-h-screen bg-gradient-to-br from-balck to-gray-900 text-black-800 px-6 pt-19 flex items-center justify-center"
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
