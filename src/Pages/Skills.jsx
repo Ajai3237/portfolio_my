@@ -24,7 +24,8 @@ const Skills = () => {
                 { name: "CSS", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" },
                 { name: "React", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
                 { name: "Tailwind", logo: "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg" },
-                { name: "Bootstrap", logo: "https://icon.icepanel.io/Technology/svg/Bootstrap.svg" }
+                { name: "Bootstrap", logo: "https://icon.icepanel.io/Technology/svg/Bootstrap.svg" },
+                {name : "Angular", logo: "https://icon.icepanel.io/Technology/svg/Angular.svg"}
               ]
             },
             {

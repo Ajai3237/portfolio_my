@@ -2,7 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const projects = [
+  
   {
+    title: "Cookpedia web site",
+    description: " Cookpedia is a responsive Angular web app for exploring and managing recipes with role-based access, JWT security, admin CRUD, PDF export, feedback, and activity charts using Highcharts",
+    link: "https://cookpedia-fe-puce.vercel.app",
+    image: "/cook.png"
+  },{
     title: "University Web site",
     description: " Website using HTML, CSS, and Media Queries. This project shows modern web design elements, including responsive navigation, engaging layouts, and accessibility across devices.",
     link: "https://ajai3237.github.io/Luminar-project/",

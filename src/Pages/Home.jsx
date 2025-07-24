@@ -116,7 +116,7 @@ function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
           >
-            with a focus on building clean, responsive, and user-friendly applications. I specialize in the MERN stack (MongoDB, Express.js, React, Node.js), and I love turning ideas into reality through code. Whether it’s developing sleek front-end interfaces or building efficient back-end systems, I strive to create digital experiences that are both functional and visually appealing. Explore my work below and feel free to reach out — I’m always open to exciting collaborations and new challenges.
+            with a focus on building clean, responsive, and user-friendly applications. I specialize in the MERN , MEAN stack (MongoDB, Express.js, Angular , React, Node.js), and I love turning ideas into reality through code. Whether it’s developing sleek front-end interfaces or building efficient back-end systems, I strive to create digital experiences that are both functional and visually appealing. Explore my work below and feel free to reach out — I’m always open to exciting collaborations and new challenges.
           </motion.p>
 
           <motion.div
